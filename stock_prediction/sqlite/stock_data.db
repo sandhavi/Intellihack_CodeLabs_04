@@ -1,0 +1,21 @@
+import sqlite3
+import pandas as pd
+
+# Load your dataset
+df = pd.read_csv('data/stock_data.csv')
+
+# Create SQLite database and table
+conn = sqlite3.connect('sqlite/stock_data.db')
+c = conn.cursor()
+
+# Create a table (if not exists)
+c.execute('''CREATE TABLE IF NOT EXISTS stock_data
+             (Date TEXT, Open REAL, High REAL, Low REAL, Close REAL, Adj_Close REAL, 
+              Cumulative_Return REAL, Close_Lag_1 REAL, MA_10 REAL, BB_Upper REAL, MA_5 REAL)''')
+
+# Insert data
+df.to_sql('stock_data', conn, if_exists='replace', index=False)
+
+# Commit and close
+conn.commit()
+conn.close()
