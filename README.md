@@ -16,8 +16,8 @@ This project implements a **Stock Price Prediction System** using an **LSTM (Lon
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
+https://github.com/sandhavi/Intellihack_CodeLabs_04.git
+cd stock_prediction
 ```
 
 ### 2️⃣ Install Dependencies
