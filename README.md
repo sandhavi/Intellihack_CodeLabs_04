@@ -109,6 +109,6 @@ Contributions are welcome! Feel free to fork, submit PRs, or open issues.
 
 
 ## 🔗 Connect
-- **GitHub:** [your-username](https://github.com/ovindumandith)
-- **LinkedIn:** [your-profile](https://www.linkedin.com/in/ovindu-gunatunga/)
+- **GitHub:** (https://github.com/ovindumandith)
+- **LinkedIn:** (https://www.linkedin.com/in/ovindu-gunatunga/)
 
